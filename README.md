@@ -30,6 +30,7 @@ It demonstrates advanced networking and security concepts including **SD-WAN, VP
 - 🌐 Dual ISP (Orange + WE) using SD-WAN
 - 🔐 IPsec VPN tunnels (Hub-and-Spoke topology)
 - 🔐 SSL VPN for remote users
+- 🔗 LACP between FortiGate and Core Switch in HQ
 - 🔄 High Availability (HA) in Cairo Branch
 - 🌍 DMZ hosting public-facing server
 - 🛠️ Dedicated Management network
@@ -85,6 +86,12 @@ It demonstrates advanced networking and security concepts including **SD-WAN, VP
 
 - Admin authentication via Active Directory
 - Role-Based Access Control (RBAC)
+
+### 🔹 Link Aggregation (LACP)
+
+- LACP (802.3ad) configured between FortiGate and Core Switch in HQ
+- Provides link redundancy and increased bandwidth
+- Ensures continuous connectivity in case of link failure
 
 ---
 
